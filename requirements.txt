@@ -1,0 +1,7 @@
+# 載入 joblib，scikit-learn
+
+joblib
+streamlit
+numpy
+sympy
+scikit-learn
