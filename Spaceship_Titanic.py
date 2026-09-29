@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 
 # load model
-@st.cache
+@st.cache_resource
 def load_model():
     clf = joblib.load('data/model.joblib3')
     scaler = joblib.load('data/scaler.joblib3')
